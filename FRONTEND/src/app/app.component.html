@@ -1,0 +1,46 @@
+<div class="container">
+  <h2>Sharewith component</h2>
+  
+  <!-- Trigger the modal with a button -->
+  <div *ngFor="let con of content">
+  
+  <button type="button" class="btn btn-info btn-lg" (click)='fetchcontentID(con)' data-toggle="modal" data-target="#myModal">Share With </button>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Share with..</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="usr">Whom do you want to share this file with :</label>
+              <div class="dropdown">
+              <input #input class="form-control dropdown-toggle" [(ngModel)]="yo" type="text" (keyup)='autofill_dropdown(input.value)' placeholder="Enter reciever's Username" data-toggle="dropdown" id="usr">
+              
+                <ul class="dropdown-menu">
+                  <div *ngFor="let drop of gicha">
+                  <li><a href="#">{{drop.firstName}} {{drop.lastName}}</a></li>
+                  </div>
+                </ul>
+              
+            </div>
+            </div>
+          </form>
+          <button class="btn btn-primary btn-medium confirmshare" (click)='extractUsers_userID(yo)'>CONFIRM SHARE</button>
+        </div>
+    
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>   
+  </div>
+  
+</div>

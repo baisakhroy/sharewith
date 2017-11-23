@@ -1,0 +1,10 @@
+C:\SHAREWITH\BACKEND\obj\Debug\netcoreapp2.0\BACKEND.csproj.CoreCompileInputs.cache
+C:\SHAREWITH\BACKEND\obj\Debug\netcoreapp2.0\BACKEND.AssemblyInfoInputs.cache
+C:\SHAREWITH\BACKEND\obj\Debug\netcoreapp2.0\BACKEND.AssemblyInfo.cs
+C:\SHAREWITH\BACKEND\bin\Debug\netcoreapp2.0\BACKEND.deps.json
+C:\SHAREWITH\BACKEND\bin\Debug\netcoreapp2.0\BACKEND.runtimeconfig.json
+C:\SHAREWITH\BACKEND\bin\Debug\netcoreapp2.0\BACKEND.runtimeconfig.dev.json
+C:\SHAREWITH\BACKEND\bin\Debug\netcoreapp2.0\BACKEND.dll
+C:\SHAREWITH\BACKEND\bin\Debug\netcoreapp2.0\BACKEND.pdb
+C:\SHAREWITH\BACKEND\obj\Debug\netcoreapp2.0\BACKEND.dll
+C:\SHAREWITH\BACKEND\obj\Debug\netcoreapp2.0\BACKEND.pdb
